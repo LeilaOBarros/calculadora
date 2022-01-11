@@ -103,12 +103,6 @@ footer{
     align-items: center;
 }
 
-.footer-content{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .social-list a{
     margin: 0 3rem;
     color: #836FFF; ;

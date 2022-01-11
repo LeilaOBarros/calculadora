@@ -17,36 +17,38 @@
 
                 <table>
                     <tr>
-                        <td> <button class="btn ac" style="width: 106px;"> <strong> AC </strong> </button> </td>
-                        <td> <button class="btn neg"> <i class="fas fa-backspace"></i> </button> </td>
-                        <td> <button class="btn operador"> <i class="fas fa-divide"></i> </button> </td>
+                        <td> <button class="btn ac" style="width: 106px;" onclick="limpar()"> <strong> AC </strong> </button> </td>
+
+                        <td> <button class="btn neg" onclick="retroceder()"> <i class="fas fa-backspace"></i> </button> </td>
+
+                        <td> <button class="btn operador" onclick="inserir('/')"> <i class="fas fa-divide"></i> </button> </td>
                     </tr>
 
                     <tr>
-                        <td> <button class="btn "> 7 </button> </td>
-                        <td> <button class="btn "> 8 </button> </td>
-                        <td> <button class="btn "> 9 </button> </td>
-                        <td> <button class="btn operador"> <strong> x </strong> </button> </td>
+                        <td> <button class="btn " onclick="inserir('7')"> 7 </button> </td>
+                        <td> <button class="btn " onclick="inserir('8')"> 8 </button> </td>
+                        <td> <button class="btn " onclick="inserir('9')"> 9 </button> </td>
+                        <td> <button class="btn operador" onclick="inserir('*')"> <strong> x </strong> </button> </td>
                     </tr>
 
                     <tr>
-                        <td> <button class="btn "> 4 </button> </td>
-                        <td> <button class="btn "> 5 </button> </td>
-                        <td> <button class="btn "> 6 </button> </td>
-                        <td> <button class="btn operador"> <strong> - </strong> </button> </td>
+                        <td> <button class="btn " onclick="inserir('4')"> 4 </button> </td>
+                        <td> <button class="btn " onclick="inserir('5')"> 5 </button> </td>
+                        <td> <button class="btn " onclick="inserir('6')"> 6 </button> </td>
+                        <td> <button class="btn operador" onclick="inserir('-')"> <strong> - </strong> </button> </td>
                     </tr>
 
                     <tr>
-                        <td> <button class="btn "> 1 </button> </td>
-                        <td> <button class="btn "> 2 </button> </td>
-                        <td> <button class="btn "> 3 </button> </td>
-                        <td> <button class="btn operador"> <strong> + </strong> </button> </td>
+                        <td> <button class="btn " onclick="inserir('1')"> 1 </button> </td>
+                        <td> <button class="btn " onclick="inserir('2')"> 2 </button> </td>
+                        <td> <button class="btn " onclick="inserir('3')"> 3 </button> </td>
+                        <td> <button class="btn operador" onclick="inserir('+')"> <strong> + </strong> </button> </td>
                     </tr>
 
                     <tr>
-                        <td> <button class="btn "> 0 </button> </td>
-                        <td> <button class="btn "> <strong> , </strong> </button> </td>
-                        <td> <button class="btn igual" style="width: 106px;"> <strong> = </strong> </button> </td>
+                        <td> <button class="btn " onclick="inserir('0')"> 0 </button> </td>
+                        <td> <button class="btn " onclick="inserir('.')"> <strong> . </strong> </button> </td>
+                        <td> <button class="btn igual" style="width: 106px;" onclick="confirma()"> <strong> = </strong> </button> </td>
                     </tr>
                 </table>
             </div>
@@ -66,6 +68,6 @@
         </div>
     </footer>
 
-    <script src="assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

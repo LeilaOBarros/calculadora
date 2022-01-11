@@ -6,7 +6,7 @@
 ## Intuito do projeto
 * Projeto feito para exercitar as principais tecnologias de Desenvolvimento Web Front-End. 
 
-## Linguagens e Frameworks que serão abordados na Jornada:
+## Linguagens utilizadas:
 * HTML5
 * CSS3
 * Javascript
