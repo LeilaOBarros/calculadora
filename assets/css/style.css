@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursive', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #cfd1e1;
+}
+
+.calculador{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100px, -250px);
+    border-radius: 1px;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #6959CD;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
+    15px 15px 15px rgba(0,0,0,0.1),
+    20px 20px 15px rgba(0,0,0,0.1),
+    30px 30px 15px rgba(0,0,0,0.1),
+    inset 1px 1px 2px #fff;
+}
+
+table td{
+    display: inline-block;
+}
+
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #696969;
+    color: #dfdfdf;
+    font-size: 1.2rem;
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+.ac{
+    background-color: #836FFF; 
+}
+
+.ac:hover{
+    background-color: #6959CD;
+}
+
+.neg{
+    background-color: #836FFF; 
+}
+
+.neg:hover{
+    background-color: #6959CD;
+}
+
+.operador{
+    background-color: #836FFF; 
+}
+
+.operador:hover{
+    background-color: #6959CD;
+}
+
+.igual{
+    background-color: #836FFF; 
+}
+
+.igual:hover{
+    background-color: #6959CD;  
+}
+
+.result{
+    height: 100px;
+    color: #dfdfdf;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word; /*Para quebrar dentro da div e não vazar para fora da calculadora*/
+    border-bottom:  1px solid #dfdfdf;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-top: 1px;
+    width: 100%;
+    height: 7rem;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list a{
+    margin: 0 3rem;
+    color: #836FFF; ;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.social-list ul{
+    display: flex;
+    list-style: none;
+}
+
+
